@@ -1,8 +1,0 @@
-[20-Oct-2019 16:11:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/thepsgmz/public_html/wp-content/themes/twentysixteen/404.php:10
-Stack trace:
-#0 {main}
-  thrown in /home/thepsgmz/public_html/wp-content/themes/twentysixteen/404.php on line 10
-[27-Dec-2020 14:33:05 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/thepsgmz/public_html/wp-content/themes/twentysixteen/404.php:10
-Stack trace:
-#0 {main}
-  thrown in /home/thepsgmz/public_html/wp-content/themes/twentysixteen/404.php on line 10
