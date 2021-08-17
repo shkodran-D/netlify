@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
-/           https://thepleasy.com
+/p           https://thepleasy.com
 /cat-g  https://news100times.com/orphaned-baby-walrus-meets-caregiver-and-wants-to-cuddle/
 /news              /blog
 /owl.html           https://news100times.com/little-owl-taking-squirt-bottle-bath-will-brighten-anyones-day/
