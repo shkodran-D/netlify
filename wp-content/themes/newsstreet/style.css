@@ -1,0 +1,263 @@
+/*
+Theme Name: NewsStreet
+Theme URI: https://awplife.com/wordpress-free-theme/newsstreet/
+Template: cryptocurrency-exchange
+Author: A WP Life
+Author URI: https://awplife.com
+Description: NewsStreet is clean and modern theme specially designed for news, magazines, publishing and review sites. This theme is easy to use, speed optimized and highly customizable. You can easily launch your modern magazine website, personal blog, daily news paper website with this theme. The responsive layout of the theme gives your website an elegant look on all device and screen resolutions. NewsStreet theme ensures your content is delivered in an appealing and eye-catching way that keeps audiences interested and constantly returning for more. Showcasing your content with NewsStreet makes it look sharp and fresh. Awesome and simple theme design will make your magazine or news websites look modern and eye catchy. If you want your magazine site to become a success, you need user-friendly theme like NewsStreet which can display your content in a way that's organized, attractive, and unique. It has easy to use navigation and good aesthetics in the same package combined with neat, flexible design.
+Version: 0.0.10
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: newsstreet
+Tags: two-columns, three-columns, right-sidebar, footer-widgets, blog, custom-menu, custom-logo, sticky-post, threaded-comments, translation-ready, featured-images, full-width-template, theme-options, news, e-commerce
+*/
+
+/*===================================================================================*/
+
+/*	News Blog Custom Design - NewsStreet
+/*===================================================================================*/
+
+/*News Blog Area*/
+
+.col-space-reduce {
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.news-block-grid {
+	position: relative;
+}
+.news-block-grid .post {
+	position: relative;
+	margin-bottom: 50px;
+	border: 7px solid #fff;
+	box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+.news-block-grid .post:hover {
+	border: 7px solid #fff;
+}
+.news-block-grid .post-thumbnail {
+	margin: 0;
+	position: relative;
+	transition: all .2s ease-out 0s;
+}
+.news-block-grid .wp-post-image {
+	transition: opacity .3s ease-in;
+	will-change: opacity;
+}
+.news-block-grid .wp-post-image:hover {
+	opacity: .85;
+}
+.news-block-grid .post:hover .wp-post-image {
+	opacity: .8
+}
+/* .news-block-grid .image-link { */
+	/* min-height: 460px; */
+/* } */
+.news-block-grid .image-link {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background: #ccc;
+	/* min-height: 386px; */
+}
+.news-block-grid .post-thumbnail .image-link:after {
+	height: 60%;
+}
+.news-block-grid .image-link:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.42) 50%, rgba(0, 0, 0, 0.88) 100%);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.42) 50%, rgba(0, 0, 0, 0.88) 100%);
+	opacity: .92;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+	will-change: opacity;
+}
+.featured-grid .small-item .image-link:after {
+	height: 70%
+}
+.news-block-grid .post-content-caption {
+	position: absolute;
+	bottom: 25px;
+	left: 20px;
+	right: 20px;
+}
+/*Meta*/
+
+.post .entry-meta {
+	color: #000;
+	font-size: 10px;
+	font-weight: 500;
+	margin: .313rem 0 1.25rem;
+	padding: 0;
+	width: 100%;
+	overflow: hidden
+}
+.post .entry-meta:last-child {
+	margin-bottom: 0;
+}
+.post .entry-meta a {
+	color: #fff;
+	font-weight: 600;
+	padding: 0;
+	display: inline-block;
+	text-decoration: none;
+	transition: all .3s ease 0s
+}
+.post .entry-meta a:focus,
+.post .entry-meta a:hover {
+	color: #fff;
+}
+.post .entry-meta .entry-date {
+	color: #bbb;
+	font-weight: 600;
+	padding: 0;
+	display: inline-block;
+	text-decoration: none;
+	transition: all .3s ease 0s;
+}
+.post .entry-meta .entry-date a {
+	color: #bbb;
+}
+.post .entry-meta > span {
+	margin: 0 .938rem 0 0;
+}
+.post .entry-meta > .cat-links {
+	font-size: 10px;
+	background: #0a0a0a;
+	display: inline-block !important;
+	padding: 6px 8px 4px;
+	text-transform: uppercase;
+	line-height: 1;
+	border-radius: 2px;
+	letter-spacing: .035em;
+}
+.post .entry-meta > .cat-links a {
+	padding-right: 0px;
+	padding-left: 0px;
+	color: #fff;
+}
+.post .entry-meta > .cat-links a:hover {
+	color: #fff;
+}
+.post .entry-header .entry-title {
+	font-weight: 600;
+	font-size: 2.25rem;
+	line-height: 1.5;
+	margin: 0 0 1.225rem;
+	padding: .125rem 0 0;
+}
+.post .entry-header .entry-title > a {
+	color: #fff;
+	text-decoration: none;
+	transition: all .4s ease 0s;
+}
+/*News Columns Block*/
+
+.news-block-cloumns .post {
+	margin-bottom: 50px;
+}
+.news-block-cloumns .post-thumbnail {
+	margin-bottom: 15px;
+	border: 7px solid #fff;
+	box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+.news-block-cloumns .post .entry-meta {
+	font-size: 12px;
+}
+.news-block-cloumns .post .entry-meta span {
+	margin: 0;
+}
+.news-block-cloumns .post .entry-meta span:before {
+	content: "\2014";
+	padding: 0 5px;
+	color: #bcbcbc;
+}
+.news-block-cloumns .post .entry-meta span:first-child:before {
+	display: none;
+}
+.news-block-cloumns .post .entry-meta .author {
+	color: #bbb;
+}
+.news-block-cloumns .post .cat-links.item-meta {
+	position: absolute;
+	top: 15px;
+	left: -17px;
+	right: unset;
+	bottom: unset;
+	color: #fff;
+	font-size: 14px;
+	display: inline-block !important;
+	padding: 5px 8px 4px;
+	line-height: 1;
+	border-radius: 1px;
+	letter-spacing: .035em;
+}
+
+@media (max-width: 768px) {
+	.news-block-cloumns .post .cat-links.item-meta {
+		top: 15px;
+		left: 15px;
+	}
+}
+@media (max-width: 500px) {
+	.news-block-cloumns .post .cat-links.item-meta {
+		top: 10px;
+		left: 10px;
+		font-size: 11px;
+	}
+}
+
+.news-block-cloumns .post .cat-links.item-meta a,
+.news-block-cloumns .post .cat-links.item-meta a:hover,
+.news-block-cloumns .post .cat-links.item-meta a:focus {
+	color: #fff;
+}
+.news-block-cloumns .post .entry-title {
+	font-size: 18px;
+}
+.news-block-cloumns .post .entry-title > a {
+	color: #232323;
+}
+.news-section-head {
+	display: block;
+	margin: 0 0 25px;
+}
+.news-section-head .head-title {
+	color: #fff;
+	display: inline-block;
+	margin: 0 0 1px;
+	padding: 7px 15px;
+	border-radius: 2px;
+}
+​ .news-block-cloumns .col-md-6:nth-child(2n+1) {
+	clear: left;
+}
+.news-block-cloumns .col-md-4:nth-child(3n+1) {
+	clear: left;
+}
+.news-block-cloumns .col-md-3:nth-child(4n+1) {
+	clear: left;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.news-block-cloumns .col-md-4:nth-child(3n+1) {
+		clear: none;
+	}
+	.news-block-cloumns .col-sm-6:nth-child(2n+1) {
+		clear: left;
+	}
+}
+.p-top-50 { padding-top: 50px; }
+.news-block-cloumns ~ .pagination {
+	display: block;
+	text-align: center;
+}
+p {
+	font-family: 'Patua One', cursive;
+
+}

@@ -1,0 +1,49 @@
+/*
+Theme Name: NewsMagbd
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.posts-with-carousel{
+	direction:ltr;
+}
+.nav.navbar-nav.navbar-right{
+	float:left!important;
+	direction:ltr;
+}
+.collapse.navbar-collapse.navbar-left{
+	float:right!important;
+	direction:rtl!important;
+}
+.logo-bar .col-sm-3{
+	float:right;
+}
+.sub-top-bar .tracking-news {
+	float:right!important;
+}
+.login-register{
+	float:left!important;	
+}
+nav.navbar li li a {
+	text-align:right;	
+}
+@media (max-width: 767px) {
+	.collapse.navbar-collapse.navbar-left{
+		float:none!important;	
+	}
+	nav.navbar li i{
+		left:0px;
+		right:auto;	
+	}
+}

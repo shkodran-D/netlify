@@ -1,0 +1,24 @@
+#customize-controls .control-section-cryptocurrency-exchange  .accordion-section-title:hover,
+#customize-controls .control-section-cryptocurrency-exchange  .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-cryptocurrency-exchange  .accordion-section-title .button {
+	margin-top:  -3px;
+	font-weight: 400;
+	margin-left: 8px;
+	background: linear-gradient(45deg,#2d2828,#ff000a) !important;
+	color: #fff;
+	border:0px solid #fff;
+}
+
+
+
+.rtl .control-section-cryptocurrency-exchange  .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+#accordion-section-cryptocurrency-exchange .accordion-section-title {
+	display: none;
+}
