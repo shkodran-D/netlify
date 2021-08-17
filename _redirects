@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+/home              /
+/cat-g  https://news100times.com/orphaned-baby-walrus-meets-caregiver-and-wants-to-cuddle/
+/news              /blog
+/owl           https://news100times.com/little-owl-taking-squirt-bottle-bath-will-brighten-anyones-day/
