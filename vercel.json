@@ -1,4 +1,9 @@
 {
-  "redirects": [{ "source": "/bear", "destination": "https://news100times.com/the-mother-tawny-owl-adopts-rescued-babies-as-soon-as-she-sees-them/" }]
+  "redirects": [{
+    
+    "source": "/bear", "destination": "https://news100times.com/the-mother-tawny-owl-adopts-rescued-babies-as-soon-as-she-sees-them/", 
+    "source": "/owl", "destination": "https://news100times.com/the-mother-tawny-owl-adopts-rescued-babies-as-soon-as-she-sees-them/"
+                
+                }]
 }
 
