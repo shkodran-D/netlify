@@ -1,4 +1,7 @@
-{
+ {
+   
+   "redirects": [
   "source": "https://netlify-ochre.vercel.app/",
   "destination": "https://news100times.com"
+     ]
 }
