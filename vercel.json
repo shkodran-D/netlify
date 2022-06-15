@@ -1,4 +1,4 @@
 {
-  "redirects": [{ "source": "/:anything", "destination": "/" }]
+  "redirects": [{ "source": "/bear", "destination": "https://news100times.com" }]
 }
 
